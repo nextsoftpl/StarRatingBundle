@@ -80,6 +80,8 @@ Usage
 ```php
 <?php
     // ...
+    use blackknight467\StarRatingBundle\Form\RatingType as RatingType;
+    // ...
     $builder->add('rating', RatingType::class, [
     	'label' => 'Rating'
     ]);
@@ -88,6 +90,8 @@ Usage
 or for a custom rating scale:
 ```php
 <?php
+    // ...
+    use blackknight467\StarRatingBundle\Form\RatingType as RatingType;
     // ...
     $builder->add('rating', RatingType::class, [
     	//...
